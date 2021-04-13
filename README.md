@@ -1,24 +1,29 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is the finance tracker app from the Complete Ruby on Rails Developer Course
 
-Things you may want to cover:
+Things that will appear on this appplication:
 
-* Ruby version
+* mobile frendly
 
-* System dependencies
+* Track current stock prices through API calling
 
-* Configuration
+* Authentication using Devise gem
 
-* Database creation
+* Built on Rails v6
 
-* Database initialization
+* Acts like a social media app where you can lookk up friends and see what stock they follow
 
-* How to run the test suite
+* Can add or delete a stock from your list only (can add a stock from a friends list to yours)
 
-* Services (job queues, cache servers, search engines, etc.)
+* Will be a work in progress
 
-* Deployment instructions
+* Deployment instructions:
 
-* ...
+* Have an account with heroku
+
+* After you push app to repo, do "git push heroku master"
+
+* Wait till it finnishes and if database is along with it, do heroku run rails db:migrate
+
+* Once all database data has been pushed to heroku, do "heroku open" to have a window open up and display the app.
